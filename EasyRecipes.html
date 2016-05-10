@@ -9,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" >
-    <link href="css/styleContact.css" rel="stylesheet" >
+    <link href="css/styleprojects.css" rel="stylesheet" >
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,300' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,71 +37,60 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li ><a href="index.html">PROJECTS</a></li>
+            <li class="active"><a href="index.html">PROJECTS</a></li>
             <li ><a href="about.html">ABOUT</a></li>
-            <li class="active"><a href="#">CONTACT</a></li>
+            <li ><a href="contact.html">CONTACT</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <!-- END NAVIGATION BAR -->
-    <div class="container">
-        <div class="row">
-        <div class="col-md-12" id="ContactMe">
-            <h1 id="myProjectsText" class="titleText" id="ContactMe">CONTACT ME</h1>
-        </div>
-    </div>
-    <div class="row rowContact">
-        <div class="col-xs-6 col-sm-6 col-md-6 nopadding ContactF">
-            <div id="ContactForm"> <!-- START CONTACT FORM -->
-                <form action="send.php" method="POST" name="payment" id="payment">
-                            
-                    <p class="name">
-                        <label for="name" class="fill"></label>
-                        <input id="fname" name="name" type="text" placeholder="Rafael Dudek" required autofocus>
-                    </p>
-                    <p class="email">
-                        <label for="email" class="fill"></label>
-                        <input id="email" name="email" type="email" placeholder="example@gmail.com" required>
-                    </p>
-                    <p class="phone">
-                        <label for="phone" class="fill"></label>
-                        <input id="phone" name="phone" type="tel" placeholder="Eg. +6190000000" required>
-                    </p>
-                                   
-                    <p class="text">
-                        <textarea name="text"></textarea>
-                    </p>
-                    <div id="buttonSend">
-                        <p class="submit">
-                            <button type="submit">SEND</button>
-                        </p>
-                    </div>
-                </form>
-            </div> <!-- END CONTACT FORM -->
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 SendMessage  ">
-            <div>
-                <p id="SendM">SEND ME A MESSAGE</p>
-                <p class="TextM">Feel free to contact me, if you have</p>
-                <p class="TextM">a question or you want to meet up</p>
+    <div class="container pro">
+       <div class="row projects text1 nopadding">
+            <div class="col-xs-12 col-sm-8 col-md-8 nopadding">
+                <div class="col-xs-6 col-sm-6 col-md-6 projects nopadding" >
+                   <img src="images/projects/pasta1.jpg" class="img-responsive">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 projects nopadding">
+                   <img src="images/projects/pasta3.jpg" class="img-responsive">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 projects noshowing nopadding">
+                   <img src="images/projects/pasta4.jpg" class="img-responsive">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 projects nopadding">
+                   <img src="images/projects/pasta2.jpg" class="img-responsive">
+                </div>
+                <div class="col-xs-6 showing projects nopadding">
+                   <img src="images/projects/pasta4.jpg" class="img-responsive">
+                </div>
+
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 ContactInfo">
-                <div class="col-xs-2 col-sm-2 col-md-3">
-                    <img src="images/contact/triangleContactL-01.png" class="triangleL">
+            <div class="col-xs-1"></div>
+            <div class="col-xs-10 col-sm-4 col-md-4 textprojects">
+                <div class="textprojects">
+                   <p class="TitleProject">LAYOUT MAGAZINE</p>
+                   <p class="TextProjectP">PROBLEM</p>
+                   <p class="TextProject">The project involved creating a magazine cover and spread page from scratch.</p>
+                   <p class="TextProjectP">SOLUTION</p>
+                   <p class="TextProject">The idea was to show a clean design by organizing the elements in columns, grids and hierarchies, maintaining consistency throughout the whole design.
+</p>
                 </div>
-                <div class="col-xs-8 col-sm-8 col-md-6">
-                    <p class="ContactI">+1 619 - 214 - 7655</p>
-                    <p class="ContactI">silva.castro.mony@gmail.com</p>
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-3">
-                    <img src="images/contact/triangleContactR-01-01.png" class="triangleR">
-                </div>
+            </div> 
+            <div class="col-xs-1"></div>
+        </div>
+        <div class="row buttons">
+            <div class="col-sm-12 col-md-12">
+                <div class="col-xs-4 col-sm-5 col-md-5"></div>
+                <a href="TacoMagazine.html"><div class="col-xs-2 col-sm-1 col-md-1 back">
+                   BACK
+                </div></a>
+                <a href="Maroon5.html"><div class="col-xs-2 col-sm-1 col-md-1 next">
+                   NEXT
+                </div></a>
             </div>
+            <div class="col-xs-4 col-sm-5 col-md-5"></div>
         </div>
     </div>
-    </div>
-    
     <!-- FOOTER -->
    <footer>
         <div class="container" id="foot">

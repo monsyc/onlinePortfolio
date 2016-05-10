@@ -23,6 +23,14 @@ body{
   color: #4CC3C8 !important;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4CC3C8 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #4CC3C8 !important;
+}
+
 .navbar-brand,        /*NAVIGATION BAR HEIGHT*/
 .navbar-nav li a {
     line-height: 70px;
@@ -73,14 +81,20 @@ body{
    footer{
     height: 120px !important;
   } 
+  a.navbar-brand{
+   width: 295px;
+  }
 }
 
 @media (max-width:330px){
   a.navbar-brand{
-  width: 255px;
+  width: 250px;
   padding-top: 5px;
 }
 }
+
+
+
 /*END NAVIGATION BAR*/
 
 /*START CONTAINER*/

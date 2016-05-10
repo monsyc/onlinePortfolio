@@ -4,7 +4,7 @@
 
 .text1{
   position: relative;
-  padding-top: 10% !important;
+  padding-top: 100px !important;
 }
 
 .textprojects{
@@ -21,6 +21,9 @@
   text-align: center;
   color: white;
 }
+.back:hover{
+  background-color: #CC3673;
+}
 
 .next{
   padding: 8px 0;
@@ -28,6 +31,10 @@
   background-color: #4CC3C8;
   text-align: center;
   color: white;
+}
+
+.next:hover{
+  background-color: #44ADAD;
 }
 
 .buttons{
@@ -64,6 +71,11 @@
 
 .textprojects{
   padding-left: 20px;
+}
+@media only screen and (min-width: 768px){
+  .text1{
+   padding-top: 120px !important;
+  }
 }
 
 @media only screen and (max-width: 767px){
@@ -102,6 +114,7 @@
 
 @media only screen and (max-width: 410px){
   .textprojects{
-    width: 100%;
+    width: 95%;
+    padding-left: 10px;
   }
 }
