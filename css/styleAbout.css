@@ -1,0 +1,221 @@
+
+
+
+/***************************ABOUT PAGE********************************/
+
+
+#rowabout{
+  padding-top: 100px;
+}
+
+/***************************TIMELINE********************************/
+
+/*.BoxAboutMe{
+  float: left;
+  position: relative;
+  width: 100%;
+}*/
+
+#timeline{
+
+/*  background-color: blue;*/
+  padding-top: 70px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*#timelineS{
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-top: 80px;
+}*/
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover { 
+  transform: scale(1.4); 
+}
+
+.grow2 { 
+  transition: all .2s ease-in-out; 
+  float: right;
+}
+.grow2:hover { 
+  transform: scale(1.4); 
+}
+
+/*BOX LEFT*/
+
+#boxLeft{
+  
+  border-right: 2px solid #4CC3C8;
+  padding-top: 20px;
+}
+
+.boxL{
+  padding-bottom: 50px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.boxL2{
+
+  padding-bottom: 50px;
+  padding-right: 0;
+}
+/*
+.PL{
+  width: 100%;
+  display: block;
+  float: right;
+}*/
+
+.textL{
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color:#58595B;
+  font-size: 12px;
+}
+
+.TitleText{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/*.pb{
+  float: left;
+  position: relative;
+  width: 90%;
+}
+
+.p20{
+  float: left;
+  position: relative;
+  width: 10%;
+  height: 150px;
+  padding-left: 10px;
+}
+
+.p21{
+  float: left;
+  position: relative;
+  width: 10%;
+  height: 50px;
+  padding-left: 10px;
+}*/
+
+/*BOX RIGHT*/
+
+#boxRight{
+  padding-top:70px;
+}
+/*
+.p21{
+  float: left;
+  position: relative;
+  width: 10%;
+  height: 150px;
+  padding-left: 10px;
+}
+
+.PL2{
+  width: 100%;
+  display: block;
+  float: left;
+}*/
+
+.textL2{
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color:#58595B;
+  font-size: 12px;
+}
+
+.TitleText2{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.timeline-xs {
+  display: none;
+}
+
+@media only screen and (max-width: 501px){
+  .timeline-md{
+    display: none;
+  }
+
+  .timeline-xs {
+    display: block;
+  }
+
+  .timeline-xs p{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#58595B;
+    font-size: 12px;
+  }
+
+  .timeline-xs p:first-child {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .line{
+    border-right: 2px solid #4CC3C8;
+    height: 10px;
+    margin: 5px 0;
+  }
+
+  .text-timeline{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#58595B;
+    font-size: 12px;
+  }
+}
+
+/***************************CLIENTS********************************/
+
+#clients{
+
+/*  background-color: blue;*/
+  padding-top: 10px;
+  text-align: center;
+}
+
+.client-container {
+  padding: 0;
+}
+
+#iconRow{
+  background-color: #F4F4F4;
+  margin-top: 40px;
+  padding: 25px 0 25px 0;
+}
+
+.iconCol{
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px){
+  .client-container {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 565px){
+  .col-sm-6{
+    width: 50%
+  }
+  .col-sm-3{
+    width: 25%
+  }
+}

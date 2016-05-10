@@ -1,0 +1,107 @@
+.projects{
+  margin-top: 90px;
+}
+
+.text1{
+  position: relative;
+  padding-top: 10% !important;
+}
+
+.textprojects{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 10px;
+}
+
+.back{
+  padding: 8px 0;
+  margin-right: 2px;
+  background-color: #EE4382;
+  text-align: center;
+  color: white;
+}
+
+.next{
+  padding: 8px 0;
+  margin-left: 2px;
+  background-color: #4CC3C8;
+  text-align: center;
+  color: white;
+}
+
+.buttons{
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.TitleProject{
+  font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #FFF200;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.TextProjectP{
+  font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#58595B;
+  
+}
+
+.TextProject{
+  font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:#58595B;
+    padding-bottom: 10px;
+  
+}
+
+.textprojects{
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 767px){
+  .textprojects {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .buttons{
+    margin-bottom: 80px;
+  }
+
+  .pro{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+
+}
+
+@media only screen and (min-width: 420px){
+  .showing{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .projects{
+    width: 100%;
+  }
+  .noshowing{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 410px){
+  .textprojects{
+    width: 100%;
+  }
+}

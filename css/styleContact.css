@@ -1,0 +1,228 @@
+
+/***************************CONTACT FORM********************************/
+
+#ContactForm {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15%;
+  float: left;
+  position: relative;
+  text-align: center;
+  /*padding-left: 2%;
+  padding-bottom: 35px;*/
+}
+@media only screen and (max-width: 800px){
+  #ContactForm{
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 749px){
+  #ContactForm{
+    padding-left: 10%;
+  }
+  input#fname, input#email, input#phone, input, textarea {
+    width: 300px !important;
+  }  
+  .ContactI{
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 644px){
+  .SendMessage, .ContactF{
+    width: 100%;
+  }
+  #ContactForm{
+    padding-left: 0;
+  }
+  .SendMessage{
+    margin-bottom: 120px;
+  }
+}
+
+input, textarea {
+    padding: 9px;
+    border: solid 1px #4CC3C8;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+    width: 340px;
+    background: #4CC3C8;
+    /*border-radius: 2px;*/
+    }
+   
+  ::-webkit-input-placeholder {
+   color: white;
+}
+textarea {
+    width: 348px;
+    max-width: 400px;
+    height: 150px;
+    }
+   
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: #547981;
+    }
+   
+.form label {
+    margin-left: 10px;
+    color: white;
+    }
+   
+form#payment button {
+  background: #EE4382;
+  border: none;
+  /*border-radius: 2px;*/
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  font-size:14px;
+  height:40px;
+  margin: 0 auto;
+  /*float: right;*/
+  padding: 7px 25px;
+  margin-top: 5px;
+/*  float: right;*/
+}
+
+form#payment button:hover {
+  background: #BC3F72;
+  cursor: pointer;
+}
+
+input#fname{
+  background-image:url(../img/person-01.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  border:1px solid #4CC3C8;
+  margin-top:12px;
+  padding-left:35px;
+  width:347px;
+  height:40px;
+}
+
+input#email{
+  background-image:url(../img/mail-01-01.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  border:1px solid #4CC3C8;
+  margin-top:12px;
+  padding-left:35px;
+  width:347px;
+  height:40px;
+}
+
+input#phone{
+  background-image:url(../img/phone-01.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  border:1px solid #4CC3C8;
+  margin-top:12px;
+  padding-left:35px;
+  width:347px;
+  height:40px;
+}
+
+.text{
+  margin-top: 10px;
+}
+
+.triangle{
+  float: left;
+  position: relative;
+  width: 25%;
+}
+
+#Info{
+  float: left;
+  position: relative;
+  width: 50%;
+}
+
+#triangleL{
+  padding-left: 110px;
+}
+
+#triangleR{
+  padding-right: 110px;
+}
+/*#ContactMe{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}*/
+
+#SendM{
+  font-family: 'Roboto', sans-serif;
+  font-weight:700;
+  font-size:19px;
+  color: #414042;
+  padding-bottom: 15px;
+}
+
+.TextM{
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  color: #414042;
+/*  padding-top: 10px;*/
+}
+
+#ContactMe{
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.ContactI{
+  font-family: 'Roboto', sans-serif;
+  font-weight:300;
+  font-size:14px;
+  color: #414042;
+}
+
+#RowContact{
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+#ColLeft{
+  float: left;
+  position: relative;
+  width: 50%;
+}
+
+#ColRight{
+  float: left;
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.SendMessage{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.triangleR{
+  float: left !important;
+  padding-top: 5px;
+}
+
+.triangleL{
+  float: right !important;
+  padding-top: 5px;
+}
+
+.ContactInfo{
+  margin-top: 30px;
+}
+
+.rowContact{
+  padding-bottom: 30px;
+}
