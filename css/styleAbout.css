@@ -10,142 +10,72 @@
 
 /***************************TIMELINE********************************/
 
-/*.BoxAboutMe{
-  float: left;
-  position: relative;
-  width: 100%;
-}*/
-
 #timeline{
-
-/*  background-color: blue;*/
   padding-top: 70px;
   text-align: center;
   margin-bottom: 50px;
 }
 
-/*#timelineS{
-  width: 100%;
-  position: relative;
-  float: left;
-  margin-top: 80px;
-}*/
-
-.grow { 
+.grow-left { 
   transition: all .2s ease-in-out; 
 }
-.grow:hover { 
+
+.grow-left:hover { 
   transform: scale(1.4); 
 }
 
-.grow2 { 
+.grow-right { 
   transition: all .2s ease-in-out; 
   float: right;
 }
-.grow2:hover { 
+
+.grow-right:hover { 
   transform: scale(1.4); 
 }
 
-/*BOX LEFT*/
-
 #boxLeft{
-  
   border-right: 2px solid #4CC3C8;
   padding-top: 20px;
 }
 
-.boxL{
+#boxRight{
+  padding-top:70px;
+}
+
+.timeline-md div div {
   padding-bottom: 50px;
   padding-right: 0;
   padding-left: 0;
 }
 
-.boxL2{
-
-  padding-bottom: 50px;
-  padding-right: 0;
-}
-/*
-.PL{
-  width: 100%;
-  display: block;
-  float: right;
-}*/
-
-.textL{
-  float: right;
+.timeline-md p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color:#58595B;
   font-size: 12px;
 }
 
-.TitleText{
+.timeline-md p:first-child {
   font-size: 16px;
   font-weight: 700;
 }
 
-/*.pb{
-  float: left;
-  position: relative;
-  width: 90%;
+#boxLeft p {
+  padding-right: 12px;
+  text-align: right;
 }
 
-.p20{
-  float: left;
-  position: relative;
-  width: 10%;
-  height: 150px;
-  padding-left: 10px;
-}
-
-.p21{
-  float: left;
-  position: relative;
-  width: 10%;
-  height: 50px;
-  padding-left: 10px;
-}*/
-
-/*BOX RIGHT*/
-
-#boxRight{
-  padding-top:70px;
-}
-/*
-.p21{
-  float: left;
-  position: relative;
-  width: 10%;
-  height: 150px;
-  padding-left: 10px;
-}
-
-.PL2{
-  width: 100%;
-  display: block;
-  float: left;
-}*/
-
-.textL2{
-  float: left;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color:#58595B;
-  font-size: 12px;
-}
-
-.TitleText2{
-  font-size: 16px;
-  font-weight: 700;
+#boxRight p {
+  padding-left: 12px;
+  text-align: left;
 }
 
 .timeline-xs {
   display: none;
 }
 
-@media only screen and (max-width: 501px){
-  .timeline-md{
+@media only screen and (max-width: 565px){
+  .timeline-md {
     display: none;
   }
 
@@ -153,7 +83,7 @@
     display: block;
   }
 
-  .timeline-xs p{
+  .timeline-xs p {
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -167,17 +97,10 @@
     font-weight: 700;
   }
 
-  .line{
+  .line {
     border-right: 2px solid #4CC3C8;
     height: 10px;
     margin: 5px 0;
-  }
-
-  .text-timeline{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color:#58595B;
-    font-size: 12px;
   }
 }
 
